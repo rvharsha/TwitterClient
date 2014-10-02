@@ -20,7 +20,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5D869BD23076DD5B53009FC6AB58703F0F490A5A</key>
-		<string>../../../Testbed/iOSTwitter</string>
+		<string>../../Testbed/iOSTwitter</string>
 		<key>F7388C6EE33C5D7738C44F272939C32FDDAA6694</key>
 		<string>..</string>
 	</dict>

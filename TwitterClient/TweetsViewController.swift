@@ -218,6 +218,8 @@ class TweetsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.parentViewController = self
         cell.indexPathRow = indexPath.row
         cell.tweet = tweets[indexPath.row]
+        cell.accessoryType = UITableViewCellAccessoryType.None
+        
         
         if (tweets.count - indexPath.row == 1 && !self.isInfiniteRefreshing) {
             infiniteActivityIndicator.hidden = false
