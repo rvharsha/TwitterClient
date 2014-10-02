@@ -1,14 +1,14 @@
 //
-//  TwitterLoginViewController.swift
+//  CreateTweetNavigationController.swift
 //  TwitterClient
 //
-//  Created by Harsha Vashisht on 9/29/14.
+//  Created by Vashisht, Harsha on 9/30/14.
 //  Copyright (c) 2014 Harsha Vashisht. All rights reserved.
 //
 
 import UIKit
 
-class TwitterLoginViewController: UIViewController {
+class CreateTweetNavigationController: UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,18 +22,6 @@ class TwitterLoginViewController: UIViewController {
     }
     
     
-    @IBAction func onLogin(sender: AnyObject) {
-        TwitterClient.sharedInstance.loginWithCompletion() {
-            (user: User?, error: NSError?) in
-            if user != nil {
-                // perform seque
-                self.performSegueWithIdentifier("homeSegue", sender: self)
-            } else {
-                // handle login error
-            }
-            
-        }
-    }
     /*
     // MARK: - Navigation
     
@@ -45,3 +33,4 @@ class TwitterLoginViewController: UIViewController {
     */
     
 }
+

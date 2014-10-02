@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B04FEDE0-F5A6-40EE-839C-DEE6D23E8572</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TwitterClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5D869BD23076DD5B53009FC6AB58703F0F490A5A</key>
+		<string>https://github.com/swaroopbutala/iOSTwitter.git</string>
+		<key>F7388C6EE33C5D7738C44F272939C32FDDAA6694</key>
+		<string>https://github.com/rvharsha/TwitterClient.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TwitterClient.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5D869BD23076DD5B53009FC6AB58703F0F490A5A</key>
+		<string>../../../Testbed/iOSTwitter</string>
+		<key>F7388C6EE33C5D7738C44F272939C32FDDAA6694</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rvharsha/TwitterClient.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F7388C6EE33C5D7738C44F272939C32FDDAA6694</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D869BD23076DD5B53009FC6AB58703F0F490A5A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSTwitter</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F7388C6EE33C5D7738C44F272939C32FDDAA6694</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TwitterClient</string>
+		</dict>
+	</array>
+</dict>
+</plist>
