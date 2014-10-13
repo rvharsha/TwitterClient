@@ -177,8 +177,9 @@ class TweetsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         self.navigationController!.navigationBar.barStyle = UIBarStyle.BlackTranslucent
         self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
         self.navigationController!.navigationBar.barTintColor = UIColor(red: 85.0/255.0, green: 172.0/255.0, blue: 238.0/255.0, alpha: 1.0)
+        tweetsTableView.estimatedRowHeight = 300
         tweetsTableView.rowHeight = UITableViewAutomaticDimension
-        tweetsTableView.estimatedRowHeight = 89.0;
+        
         setupRefreshControl()
         
         
