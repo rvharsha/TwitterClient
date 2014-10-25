@@ -29,8 +29,6 @@ class CreateTweetViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var tweetBarButtonItem: UIBarButtonItem!
     @IBOutlet weak var tweetTextView: UITextView!
 
-    var tweetBeep = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("up", ofType: "wav")!)
-    var tweetBeepAudioPlayer = AVAudioPlayer()
     
     
     @IBAction func onTweet(sender: AnyObject) {
@@ -98,8 +96,6 @@ class CreateTweetViewController: UIViewController, UITextViewDelegate {
         tweetTextView.userInteractionEnabled = true
         tweetTextView.editable = true
         
-        tweetBeepAudioPlayer = AVAudioPlayer(contentsOfURL: tweetBeep, error: nil)
-        tweetBeepAudioPlayer.prepareToPlay()
         
         // Do any additional setup after loading the view.
     }
