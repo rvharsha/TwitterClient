@@ -65,7 +65,7 @@ class CreateTweetViewController: UIViewController, UITextViewDelegate {
         self.tweetTextView.delegate = self
         nameLabel.text = currentUser?.name
         handleLabel.text = currentUser?.screenName
-        profileThumbView.setImageWithURL(NSURL(string: currentUser!.profileImageUrl!))
+        //profileThumbView.setImageWithURL(NSURL(string: currentUser!.profileImageUrl!))
         profileThumbView.layer.cornerRadius = 5;
         profileThumbView.clipsToBounds = true;
         tweetBarButtonItem.enabled = false

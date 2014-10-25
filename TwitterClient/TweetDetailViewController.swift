@@ -62,17 +62,17 @@ class TweetDetailViewController: UIViewController {
         
         //Set Fav Icon
         if self.tweet!.favorited == 1 {
-            let image = UIImage(named: "favorite-on.png") as UIImage
+            let image = UIImage(named: "favorite-on.png") as UIImage?
             self.favButton.setImage(image, forState: UIControlState.Normal)
         } else {
-            let image = UIImage(named: "favorite-light.png") as UIImage
+            let image = UIImage(named: "favorite-light.png") as UIImage?
             self.favButton.setImage(image, forState: UIControlState.Normal)
         }
 
         //Set Retweet Icon
         if (tweet?.retweeted == 1) {
             self.retweetButton.enabled = false
-            let image = UIImage(named: "retweet-on.png") as UIImage
+            let image = UIImage(named: "retweet-on.png") as UIImage?
             self.retweetButton.setImage(image, forState: UIControlState.Disabled)
         }
         
