@@ -22,3 +22,5 @@ Optional: User can load more tweets once they reach the bottom of the feed using
 
 
 3.GIF Walkthrough - https://www.dropbox.com/s/ueww0jrogknbzlm/Twitter.gif?dl=0
+
+4. GIF Walkthrough part 2 - https://www.dropbox.com/s/jg2f66p228simpx/Assignment1.gif?dl=0
